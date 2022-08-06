@@ -1,0 +1,3 @@
+[submodule "aspect2d-engine/vendor/glfw"]
+	path = aspect2d-engine/vendor/glfw
+	url = https://github.com/glfw/glfw.git
