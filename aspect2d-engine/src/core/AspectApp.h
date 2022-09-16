@@ -1,8 +1,12 @@
 #pragma once
+#include "Base.h"
 
-class __declspec(dllexport) AspectApp
+namespace ASP
 {
-public:
-	AspectApp();
-	int Run();
-};
+	class ASP_API AspectApp
+	{
+	public:
+		AspectApp();
+		int Run();
+	};
+}
