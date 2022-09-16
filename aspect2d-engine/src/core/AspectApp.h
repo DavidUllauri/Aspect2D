@@ -1,9 +1,12 @@
 #pragma once
 #include "Base.h"
 
-class ASP_API AspectApp
+namespace ASP
 {
-public:
-	AspectApp();
-	int Run();
-};
+	class ASP_API AspectApp
+	{
+	public:
+		AspectApp();
+		int Run();
+	};
+}
